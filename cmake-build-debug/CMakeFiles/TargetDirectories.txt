@@ -9,3 +9,6 @@
 /Users/alice/cLionProject/dataStructure/cmake-build-debug/helloworld/CMakeFiles/Test.dir
 /Users/alice/cLionProject/dataStructure/cmake-build-debug/helloworld/CMakeFiles/edit_cache.dir
 /Users/alice/cLionProject/dataStructure/cmake-build-debug/helloworld/CMakeFiles/rebuild_cache.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/base_c/CMakeFiles/BaseC.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/base_c/CMakeFiles/edit_cache.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/base_c/CMakeFiles/rebuild_cache.dir

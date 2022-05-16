@@ -10,7 +10,8 @@
 					[
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -32,7 +33,7 @@
 					"source" : "Status",
 					"targetIndexes" : 
 					[
-						0
+						1
 					]
 				},
 				{
@@ -47,7 +48,7 @@
 					"source" : "0201_SqList",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -62,7 +63,22 @@
 					"source" : "helloworld",
 					"targetIndexes" : 
 					[
-						2
+						3
+					]
+				},
+				{
+					"build" : "base_c",
+					"jsonFile" : "directory-base_c-Debug-b20e50c45c9a070290e7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "base_c",
+					"targetIndexes" : 
+					[
+						0
 					]
 				}
 			],
@@ -75,23 +91,32 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"name" : "CLion",
 					"targetIndexes" : 
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
+					"directoryIndex" : 4,
+					"id" : "BaseC::@721dae34175018659a6b",
+					"jsonFile" : "target-BaseC-Debug-948fa1881f93cf1e19fc.json",
+					"name" : "BaseC",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 1,
 					"id" : "Scanf_lib::@fe314c4577536ad9eb12",
-					"jsonFile" : "target-Scanf_lib-Debug-22fd364625857eea0a0f.json",
+					"jsonFile" : "target-Scanf_lib-Debug-d8397131b6708683cf3d.json",
 					"name" : "Scanf_lib",
 					"projectIndex" : 0
 				},

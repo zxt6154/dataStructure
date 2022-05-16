@@ -83,6 +83,18 @@ build Status/CMakeFiles/Scanf_lib.dir/Status.c.o: C_COMPILER__Scanf_lib_Debug /U
   OBJECT_DIR = Status/CMakeFiles/Scanf_lib.dir
   OBJECT_FILE_DIR = Status/CMakeFiles/Scanf_lib.dir
 
+build Status/CMakeFiles/Scanf_lib.dir/__/base_c/BaseC.c.o: C_COMPILER__Scanf_lib_Debug /Users/alice/cLionProject/dataStructure/base_c/BaseC.c || cmake_object_order_depends_target_Scanf_lib
+  DEP_FILE = Status/CMakeFiles/Scanf_lib.dir/__/base_c/BaseC.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
+  OBJECT_DIR = Status/CMakeFiles/Scanf_lib.dir
+  OBJECT_FILE_DIR = Status/CMakeFiles/Scanf_lib.dir/__/base_c
+
+build Status/CMakeFiles/Scanf_lib.dir/__/base_c/BaseC-main.c.o: C_COMPILER__Scanf_lib_Debug /Users/alice/cLionProject/dataStructure/base_c/BaseC-main.c || cmake_object_order_depends_target_Scanf_lib
+  DEP_FILE = Status/CMakeFiles/Scanf_lib.dir/__/base_c/BaseC-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
+  OBJECT_DIR = Status/CMakeFiles/Scanf_lib.dir
+  OBJECT_FILE_DIR = Status/CMakeFiles/Scanf_lib.dir/__/base_c
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target Scanf_lib
@@ -91,7 +103,7 @@ build Status/CMakeFiles/Scanf_lib.dir/Status.c.o: C_COMPILER__Scanf_lib_Debug /U
 #############################################
 # Link the static library Status/libScanf_lib.a
 
-build Status/libScanf_lib.a: C_STATIC_LIBRARY_LINKER__Scanf_lib_Debug Status/CMakeFiles/Scanf_lib.dir/Status.c.o
+build Status/libScanf_lib.a: C_STATIC_LIBRARY_LINKER__Scanf_lib_Debug Status/CMakeFiles/Scanf_lib.dir/Status.c.o Status/CMakeFiles/Scanf_lib.dir/__/base_c/BaseC.c.o Status/CMakeFiles/Scanf_lib.dir/__/base_c/BaseC-main.c.o
   ARCH_FLAGS = -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = Status/CMakeFiles/Scanf_lib.dir
@@ -253,7 +265,77 @@ build helloworld/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build helloworld/rebuild_cache: phony helloworld/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/alice/cLionProject/dataStructure/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BaseC
+
+
+#############################################
+# Order-only phony target for BaseC
+
+build cmake_object_order_depends_target_BaseC: phony || cmake_object_order_depends_target_Scanf_lib
+
+build base_c/CMakeFiles/BaseC.dir/BaseC.c.o: C_COMPILER__BaseC_Debug /Users/alice/cLionProject/dataStructure/base_c/BaseC.c || cmake_object_order_depends_target_BaseC
+  DEP_FILE = base_c/CMakeFiles/BaseC.dir/BaseC.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
+  INCLUDES = -I/Users/alice/cLionProject/dataStructure
+  OBJECT_DIR = base_c/CMakeFiles/BaseC.dir
+  OBJECT_FILE_DIR = base_c/CMakeFiles/BaseC.dir
+
+build base_c/CMakeFiles/BaseC.dir/BaseC-main.c.o: C_COMPILER__BaseC_Debug /Users/alice/cLionProject/dataStructure/base_c/BaseC-main.c || cmake_object_order_depends_target_BaseC
+  DEP_FILE = base_c/CMakeFiles/BaseC.dir/BaseC-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
+  INCLUDES = -I/Users/alice/cLionProject/dataStructure
+  OBJECT_DIR = base_c/CMakeFiles/BaseC.dir
+  OBJECT_FILE_DIR = base_c/CMakeFiles/BaseC.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BaseC
+
+
+#############################################
+# Link the executable base_c/BaseC
+
+build base_c/BaseC: C_EXECUTABLE_LINKER__BaseC_Debug base_c/CMakeFiles/BaseC.dir/BaseC.c.o base_c/CMakeFiles/BaseC.dir/BaseC-main.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  LINK_LIBRARIES = Status/libScanf_lib.a
+  OBJECT_DIR = base_c/CMakeFiles/BaseC.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base_c/BaseC
+  TARGET_PDB = BaseC.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build base_c/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/base_c && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build base_c/edit_cache: phony base_c/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build base_c/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/base_c && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/alice/cLionProject/dataStructure -B/Users/alice/cLionProject/dataStructure/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build base_c/rebuild_cache: phony base_c/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
+
+build BaseC: phony base_c/BaseC
 
 build Scanf_lib: phony Status/libScanf_lib.a
 
@@ -271,7 +353,7 @@ build libScanf_lib.a: phony Status/libScanf_lib.a
 #############################################
 # Folder: /Users/alice/cLionProject/dataStructure/cmake-build-debug
 
-build all: phony Status/all 0201_SqList/all helloworld/all
+build all: phony Status/all 0201_SqList/all helloworld/all base_c/all
 
 # =============================================================================
 
@@ -290,6 +372,13 @@ build Status/all: phony Status/libScanf_lib.a
 # =============================================================================
 
 #############################################
+# Folder: /Users/alice/cLionProject/dataStructure/cmake-build-debug/base_c
+
+build base_c/all: phony base_c/BaseC
+
+# =============================================================================
+
+#############################################
 # Folder: /Users/alice/cLionProject/dataStructure/cmake-build-debug/helloworld
 
 build helloworld/all: phony helloworld/Test
@@ -301,14 +390,14 @@ build helloworld/all: phony helloworld/Test
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../0201_SqList/CMakeLists.txt ../CMakeLists.txt ../Status/CMakeLists.txt ../helloworld/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../0201_SqList/CMakeLists.txt ../CMakeLists.txt ../Status/CMakeLists.txt ../base_c/CMakeLists.txt ../helloworld/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../0201_SqList/CMakeLists.txt ../CMakeLists.txt ../Status/CMakeLists.txt ../helloworld/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
+build ../0201_SqList/CMakeLists.txt ../CMakeLists.txt ../Status/CMakeLists.txt ../base_c/CMakeLists.txt ../helloworld/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
 
 
 #############################################

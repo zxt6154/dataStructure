@@ -110,6 +110,9 @@
 		},
 		{
 			"path" : "helloworld/CMakeLists.txt"
+		},
+		{
+			"path" : "base_c/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
