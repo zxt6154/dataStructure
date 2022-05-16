@@ -1,0 +1,126 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Status",
+					"jsonFile" : "directory-Status-Debug-0d59bafebdf1474c608a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Status",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "0201_SqList",
+					"jsonFile" : "directory-0201_SqList-Debug-97fb500372d4effabd88.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "0201_SqList",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "helloworld",
+					"jsonFile" : "directory-helloworld-Debug-d3cd8caebe6a3b0f4a1f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "helloworld",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "CLion",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Scanf_lib::@fe314c4577536ad9eb12",
+					"jsonFile" : "target-Scanf_lib-Debug-22fd364625857eea0a0f.json",
+					"name" : "Scanf_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SqList::@26c4c67396cb5c18ce72",
+					"jsonFile" : "target-SqList-Debug-b6829afd22865d64c8fd.json",
+					"name" : "SqList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Test::@92dad9443e4dd6d70a7f",
+					"jsonFile" : "target-Test-Debug-1f27c0ad63ef900b91c4.json",
+					"name" : "Test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/alice/cLionProject/dataStructure/cmake-build-debug",
+		"source" : "/Users/alice/cLionProject/dataStructure"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

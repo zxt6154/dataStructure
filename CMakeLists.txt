@@ -4,5 +4,5 @@ project(CLion C)
 set(CMAKE_C_STANDARD 90)
 
 add_subdirectory(Status)
-add_subdirectory(dataStructure)
-#add_subdirectory(ExerciseBook)
+add_subdirectory(0201_SqList)
+add_subdirectory(helloworld)

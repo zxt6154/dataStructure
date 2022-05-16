@@ -1,15 +1,4 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/alice/cLionProject/dataStructure -B /Users/alice/cLionProject/dataStructure/cmake-build-debug
--- The C compiler identification is AppleClang 13.1.6.13160021
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
-CMake Error at CMakeLists.txt:7 (add_subdirectory):
-  add_subdirectory given source "dataStructure" which is not an existing
-  directory.
-
-
--- Configuring incomplete, errors occurred!
-See also "/Users/alice/cLionProject/dataStructure/cmake-build-debug/CMakeFiles/CMakeOutput.log".
-See also "/Users/alice/cLionProject/dataStructure/cmake-build-debug/CMakeFiles/CMakeError.log".
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/alice/cLionProject/dataStructure/cmake-build-debug

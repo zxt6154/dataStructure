@@ -1,0 +1,8 @@
+# ninja log v5
+0	31	1652683315992421150	Status/CMakeFiles/Scanf_lib.dir/Status.c.o	f176d8c6029843cc
+26	64	1652683415203800973	helloworld/Test	b71ca33cddc4e2ea
+0	16	1652683415155922000	Status/libScanf_lib.a	772d8bcb454c1fb7
+0	26	1652683415165142860	helloworld/CMakeFiles/Test.dir/Test.c.o	75665abff5d16df9
+1	32	1652683635542500579	0201_SqList/CMakeFiles/SqList.dir/SqList-main.c.o	7f4ca45612918406
+1	33	1652683635543565051	0201_SqList/CMakeFiles/SqList.dir/SqList.c.o	d8568f483613b61e
+33	68	1652683635579464485	0201_SqList/SqList	66d2087e98469d69

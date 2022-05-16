@@ -1,0 +1,11 @@
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/Status/CMakeFiles/Scanf_lib.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/Status/CMakeFiles/edit_cache.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/Status/CMakeFiles/rebuild_cache.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/0201_SqList/CMakeFiles/SqList.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/0201_SqList/CMakeFiles/edit_cache.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/0201_SqList/CMakeFiles/rebuild_cache.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/helloworld/CMakeFiles/Test.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/helloworld/CMakeFiles/edit_cache.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/helloworld/CMakeFiles/rebuild_cache.dir
