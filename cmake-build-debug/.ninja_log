@@ -14,3 +14,13 @@
 1	24	1652701561998695144	base_c/CMakeFiles/BaseC.dir/BaseC-main.c.o	bcd82d9250b21c0e
 23	42	1652701562018103000	Status/libScanf_lib.a	34b09d9c3e1ac63
 42	78	1652701562053688334	base_c/BaseC	bbd98f7ae87bff60
+0	28	1652751983313543460	Status/CMakeFiles/Scanf_lib.dir/__/base_c/BaseC.c.o	42c07462ce23f267
+1	28	1652751983313543377	base_c/CMakeFiles/BaseC.dir/BaseC.c.o	ba58f27b3fbc95ed
+28	45	1652751983332561000	Status/libScanf_lib.a	34b09d9c3e1ac63
+1	28	1652752023210786301	base_c/CMakeFiles/BaseC.dir/BaseC.c.o	ba58f27b3fbc95ed
+1	28	1652752023210786426	Status/CMakeFiles/Scanf_lib.dir/__/base_c/BaseC.c.o	42c07462ce23f267
+28	42	1652752023226524000	Status/libScanf_lib.a	34b09d9c3e1ac63
+0	22	1652752055689131306	Status/CMakeFiles/Scanf_lib.dir/__/base_c/BaseC-main.c.o	72019412c62bd456
+0	22	1652752055688838895	base_c/CMakeFiles/BaseC.dir/BaseC-main.c.o	bcd82d9250b21c0e
+22	38	1652752055705680000	Status/libScanf_lib.a	34b09d9c3e1ac63
+38	67	1652752055734506079	base_c/BaseC	bbd98f7ae87bff60
