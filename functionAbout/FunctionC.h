@@ -6,6 +6,3 @@
 #define CLION_BASEC_H
 
 #endif //CLION_BASEC_H
-int sushuSum();
-int isSushu(int i, int cnt);
-int arrtest();

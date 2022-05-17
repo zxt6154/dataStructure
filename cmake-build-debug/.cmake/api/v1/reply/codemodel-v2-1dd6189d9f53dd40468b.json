@@ -11,7 +11,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -33,7 +34,7 @@
 					"source" : "Status",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -48,7 +49,7 @@
 					"source" : "0201_SqList",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -63,7 +64,7 @@
 					"source" : "helloworld",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -80,6 +81,21 @@
 					[
 						0
 					]
+				},
+				{
+					"build" : "functionAbout",
+					"jsonFile" : "directory-functionAbout-Debug-ea61fcda339d4f6eeb72.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "functionAbout",
+					"targetIndexes" : 
+					[
+						1
+					]
 				}
 			],
 			"name" : "Debug",
@@ -92,7 +108,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					],
 					"name" : "CLion",
 					"targetIndexes" : 
@@ -100,7 +117,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -111,6 +129,13 @@
 					"id" : "BaseC::@721dae34175018659a6b",
 					"jsonFile" : "target-BaseC-Debug-948fa1881f93cf1e19fc.json",
 					"name" : "BaseC",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "FunctionC::@9c78ddac61e8a83a876c",
+					"jsonFile" : "target-FunctionC-Debug-d692dc79048688ee1695.json",
+					"name" : "FunctionC",
 					"projectIndex" : 0
 				},
 				{
