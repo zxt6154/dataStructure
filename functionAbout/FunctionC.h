@@ -8,3 +8,6 @@
 #endif //CLION_BASEC_H
 
 int staticNum();
+
+int search(int key, int a[], int length);
+int arrCalculate();

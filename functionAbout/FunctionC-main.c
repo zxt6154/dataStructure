@@ -7,7 +7,8 @@
 #include "FunctionC.h"
 
 int main () {
-    staticNum();
+    //staticNum();
+    arrCalculate();
 }
 
 
