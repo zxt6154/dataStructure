@@ -55,3 +55,8 @@
 0	25	1652793822303196354	base_c/CMakeFiles/BaseC.dir/BaseC.c.o	ba58f27b3fbc95ed
 25	39	1652793822319568000	Status/libScanf_lib.a	34b09d9c3e1ac63
 40	69	1652793822348246300	base_c/BaseC	bbd98f7ae87bff60
+1	145	1652842377857956558	functionAbout/CMakeFiles/FunctionC.dir/FunctionC-main.c.o	b872bd057b1462ca
+0	145	1652842377857956183	functionAbout/CMakeFiles/FunctionC.dir/FunctionC.c.o	eb96d62ad5e28163
+145	184	1652842377898268278	functionAbout/FunctionC	a6540415bb31d5a8
+0	26	1652842577925376149	functionAbout/CMakeFiles/FunctionC.dir/FunctionC.c.o	eb96d62ad5e28163
+26	59	1652842577958817319	functionAbout/FunctionC	a6540415bb31d5a8

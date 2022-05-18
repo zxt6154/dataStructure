@@ -6,3 +6,5 @@
 #define CLION_BASEC_H
 
 #endif //CLION_BASEC_H
+
+int staticNum();
