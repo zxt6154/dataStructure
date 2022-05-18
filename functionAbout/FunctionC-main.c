@@ -8,7 +8,8 @@
 
 int main () {
     //staticNum();
-    arrCalculate();
+    //arrCalculate();
+    primeMain();
 }
 
 

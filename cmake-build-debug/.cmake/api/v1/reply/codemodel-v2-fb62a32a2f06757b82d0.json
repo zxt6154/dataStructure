@@ -12,7 +12,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -34,7 +35,7 @@
 					"source" : "Status",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -49,7 +50,7 @@
 					"source" : "0201_SqList",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -64,7 +65,7 @@
 					"source" : "helloworld",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -96,6 +97,21 @@
 					[
 						1
 					]
+				},
+				{
+					"build" : "pointer_c",
+					"jsonFile" : "directory-pointer_c-Debug-e66d926f61755f309a3d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "pointer_c",
+					"targetIndexes" : 
+					[
+						2
+					]
 				}
 			],
 			"name" : "Debug",
@@ -109,7 +125,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					],
 					"name" : "CLion",
 					"targetIndexes" : 
@@ -118,7 +135,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -139,9 +157,16 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 6,
+					"id" : "PointerC::@734918de7655ccdd97ef",
+					"jsonFile" : "target-PointerC-Debug-c245f7fad3ecb4c52f12.json",
+					"name" : "PointerC",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 1,
 					"id" : "Scanf_lib::@fe314c4577536ad9eb12",
-					"jsonFile" : "target-Scanf_lib-Debug-d8397131b6708683cf3d.json",
+					"jsonFile" : "target-Scanf_lib-Debug-47b63b12fa39b5cd7f76.json",
 					"name" : "Scanf_lib",
 					"projectIndex" : 0
 				},

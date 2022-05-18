@@ -11,3 +11,7 @@ int staticNum();
 
 int search(int key, int a[], int length);
 int arrCalculate();
+
+int isPrime(int x);
+int primeIs(int x, int knownPrimes[], int numberOfknownPrimes);
+int primeMain();

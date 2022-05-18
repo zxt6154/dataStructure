@@ -116,6 +116,9 @@
 		},
 		{
 			"path" : "functionAbout/CMakeLists.txt"
+		},
+		{
+			"path" : "pointer_c/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

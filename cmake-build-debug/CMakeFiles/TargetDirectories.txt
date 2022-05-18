@@ -15,3 +15,6 @@
 /Users/alice/cLionProject/dataStructure/cmake-build-debug/functionAbout/CMakeFiles/FunctionC.dir
 /Users/alice/cLionProject/dataStructure/cmake-build-debug/functionAbout/CMakeFiles/edit_cache.dir
 /Users/alice/cLionProject/dataStructure/cmake-build-debug/functionAbout/CMakeFiles/rebuild_cache.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/pointer_c/CMakeFiles/PointerC.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/pointer_c/CMakeFiles/edit_cache.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/pointer_c/CMakeFiles/rebuild_cache.dir

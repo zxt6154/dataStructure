@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 int staticNum() {
 
@@ -39,7 +40,7 @@ int search(int key, int a[], int length) {
 
 int arrCalculate() {
 
-    int arr[] = {1, 23, 9, 8, 3, 12, 11, 19, 4, 17};
+    int arr[] = {1, 23, 9, 8, 3, 12, 11, 19, 4, 17,};
 
     int x;
 
@@ -53,5 +54,52 @@ int arrCalculate() {
         printf("不存在");
     }
 
+    return 0;
+}
+
+int isPrime(int x) {
+
+    int ret = 1;
+    if(x == 1 || (x %2 == 0 && x != 2)) {
+        ret = 0;
+    }
+    //for(int i = 3; i < x; i+=2) {
+    for(int i = 3; i < sqrt(x); i+=2) {
+        if(x%i == 0) {
+            ret = 0;
+            break;
+        }
+    }
+
+    return ret;
+}
+
+int primeIs(int x, int knownPrimes[], int numberOfknownPrimes) {
+    int ret = 1;
+    for (int i = 0; i < numberOfknownPrimes;i++) {
+        if(i%knownPrimes[i]) {
+            ret = 0;
+            break;
+        }
+    }
+    return 0;
+}
+int primeMain() {
+    const int number = 100;
+    int primeNum[number] = {2};
+    int count = 1;
+    int i = 3;
+    while (count < number) {
+        if(primeIs(i, primeNum, count)) {
+            primeNum[count++] = i;
+        }
+        i++;
+    }
+
+    for (i = 0; i < number; i++) {
+        printf("%d", primeNum[i]);
+        if((i+1)%5) printf("\t");
+        else printf("\n");
+    }
     return 0;
 }
