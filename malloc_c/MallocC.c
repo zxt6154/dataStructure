@@ -22,7 +22,7 @@ void malloctest() {
     for (int j = number-1; j >= 0; j--) {
         printf("%d\n", numai[j]);
     }
-
-    free(numai);
+    int *temp = numai++;
+    free(temp);
 
 }
