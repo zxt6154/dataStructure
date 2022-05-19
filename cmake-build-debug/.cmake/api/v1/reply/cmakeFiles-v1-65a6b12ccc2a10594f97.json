@@ -119,6 +119,9 @@
 		},
 		{
 			"path" : "pointer_c/CMakeLists.txt"
+		},
+		{
+			"path" : "malloc_c/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

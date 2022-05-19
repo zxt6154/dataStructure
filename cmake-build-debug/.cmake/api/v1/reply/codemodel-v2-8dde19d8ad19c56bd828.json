@@ -13,7 +13,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -35,7 +36,7 @@
 					"source" : "Status",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -50,7 +51,7 @@
 					"source" : "0201_SqList",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -65,7 +66,7 @@
 					"source" : "helloworld",
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
@@ -110,6 +111,21 @@
 					"source" : "pointer_c",
 					"targetIndexes" : 
 					[
+						3
+					]
+				},
+				{
+					"build" : "malloc_c",
+					"jsonFile" : "directory-malloc_c-Debug-69c9a481b96d53c96135.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "malloc_c",
+					"targetIndexes" : 
+					[
 						2
 					]
 				}
@@ -126,7 +142,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					],
 					"name" : "CLion",
 					"targetIndexes" : 
@@ -136,7 +153,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -157,6 +175,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 7,
+					"id" : "MallocC::@a4b5bf45cc5868b8393d",
+					"jsonFile" : "target-MallocC-Debug-ce229479a787e5cd60d4.json",
+					"name" : "MallocC",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 6,
 					"id" : "PointerC::@734918de7655ccdd97ef",
 					"jsonFile" : "target-PointerC-Debug-c245f7fad3ecb4c52f12.json",
@@ -166,7 +191,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "Scanf_lib::@fe314c4577536ad9eb12",
-					"jsonFile" : "target-Scanf_lib-Debug-47b63b12fa39b5cd7f76.json",
+					"jsonFile" : "target-Scanf_lib-Debug-22fd364625857eea0a0f.json",
 					"name" : "Scanf_lib",
 					"projectIndex" : 0
 				},
