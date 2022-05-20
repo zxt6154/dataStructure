@@ -14,7 +14,9 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8,
+						9
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -66,7 +68,7 @@
 					"source" : "helloworld",
 					"targetIndexes" : 
 					[
-						6
+						8
 					]
 				},
 				{
@@ -128,6 +130,36 @@
 					[
 						2
 					]
+				},
+				{
+					"build" : "str_c",
+					"jsonFile" : "directory-str_c-Debug-a64d2dd05b34b6d0c728.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "str_c",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "structure_c",
+					"jsonFile" : "directory-structure_c-Debug-0b0393a0361329c1c942.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "structure_c",
+					"targetIndexes" : 
+					[
+						7
+					]
 				}
 			],
 			"name" : "Debug",
@@ -143,7 +175,9 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8,
+						9
 					],
 					"name" : "CLion",
 					"targetIndexes" : 
@@ -154,7 +188,9 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7,
+						8
 					]
 				}
 			],
@@ -200,6 +236,20 @@
 					"id" : "SqList::@26c4c67396cb5c18ce72",
 					"jsonFile" : "target-SqList-Debug-b6829afd22865d64c8fd.json",
 					"name" : "SqList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "StrC::@b0e6a6b62d582b9875f3",
+					"jsonFile" : "target-StrC-Debug-23fc79398d17d086bbec.json",
+					"name" : "StrC",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "StructureC::@fad7b4c281c3f5de87e4",
+					"jsonFile" : "target-StructureC-Debug-bb93adf783dd8835a46e.json",
+					"name" : "StructureC",
 					"projectIndex" : 0
 				},
 				{

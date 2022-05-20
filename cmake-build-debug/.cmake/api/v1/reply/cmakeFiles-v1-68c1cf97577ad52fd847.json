@@ -122,6 +122,12 @@
 		},
 		{
 			"path" : "malloc_c/CMakeLists.txt"
+		},
+		{
+			"path" : "str_c/CMakeLists.txt"
+		},
+		{
+			"path" : "structure_c/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

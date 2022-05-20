@@ -6,3 +6,7 @@
 #define CLION_STRC_H
 
 #endif //CLION_STRC_H
+
+void getputchar();
+
+int mycmp();

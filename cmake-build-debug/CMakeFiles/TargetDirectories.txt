@@ -21,3 +21,9 @@
 /Users/alice/cLionProject/dataStructure/cmake-build-debug/malloc_c/CMakeFiles/MallocC.dir
 /Users/alice/cLionProject/dataStructure/cmake-build-debug/malloc_c/CMakeFiles/edit_cache.dir
 /Users/alice/cLionProject/dataStructure/cmake-build-debug/malloc_c/CMakeFiles/rebuild_cache.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/str_c/CMakeFiles/StrC.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/str_c/CMakeFiles/edit_cache.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/str_c/CMakeFiles/rebuild_cache.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/structure_c/CMakeFiles/StructureC.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/structure_c/CMakeFiles/edit_cache.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/structure_c/CMakeFiles/rebuild_cache.dir
