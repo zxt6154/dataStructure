@@ -7,7 +7,20 @@
 #include <stdio.h>
 
 
+void initDate(struct date *today) {
+    //1.
+    // *today = (struct date){20, 5, 2022};
+    //2.
+    //struct date thisMonth = {.month = 05, .day = 2022};
 
+
+    printf("指针测试  \n %i-%i-%i \n", today->year, today->month, today->day);
+
+    today->day = 23;
+    today->month = 5;
+    today->year = 2022;
+
+}
 
 
 

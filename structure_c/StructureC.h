@@ -13,7 +13,7 @@ struct date {
     int year;
 };
 
-
+void initDate(struct date *today);
 
 
 
