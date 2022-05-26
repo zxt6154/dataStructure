@@ -128,6 +128,9 @@
 		},
 		{
 			"path" : "structure_c/CMakeLists.txt"
+		},
+		{
+			"path" : "union/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

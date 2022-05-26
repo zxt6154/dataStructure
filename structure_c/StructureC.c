@@ -16,7 +16,7 @@ void initDate(struct date *today) {
 
     printf("指针测试  \n %i-%i-%i \n", today->year, today->month, today->day);
 
-    today->day = 23;
+    (*today).day = 31;
     today->month = 5;
     today->year = 2022;
 

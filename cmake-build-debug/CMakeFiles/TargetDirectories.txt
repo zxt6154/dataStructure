@@ -27,3 +27,6 @@
 /Users/alice/cLionProject/dataStructure/cmake-build-debug/structure_c/CMakeFiles/StructureC.dir
 /Users/alice/cLionProject/dataStructure/cmake-build-debug/structure_c/CMakeFiles/edit_cache.dir
 /Users/alice/cLionProject/dataStructure/cmake-build-debug/structure_c/CMakeFiles/rebuild_cache.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/union/CMakeFiles/Union.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/union/CMakeFiles/edit_cache.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/union/CMakeFiles/rebuild_cache.dir

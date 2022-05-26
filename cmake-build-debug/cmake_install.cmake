@@ -82,6 +82,11 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/alice/cLionProject/dataStructure/cmake-build-debug/structure_c/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/alice/cLionProject/dataStructure/cmake-build-debug/union/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()

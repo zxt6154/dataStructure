@@ -16,7 +16,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -160,6 +161,21 @@
 					[
 						7
 					]
+				},
+				{
+					"build" : "union",
+					"jsonFile" : "directory-union-Debug-d1ec306b1b3623b47035.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "union",
+					"targetIndexes" : 
+					[
+						9
+					]
 				}
 			],
 			"name" : "Debug",
@@ -177,7 +193,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					],
 					"name" : "CLion",
 					"targetIndexes" : 
@@ -190,7 +207,8 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9
 					]
 				}
 			],
@@ -257,6 +275,13 @@
 					"id" : "Test::@92dad9443e4dd6d70a7f",
 					"jsonFile" : "target-Test-Debug-1f27c0ad63ef900b91c4.json",
 					"name" : "Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "Union::@9a591ec12c9ce70c6c96",
+					"jsonFile" : "target-Union-Debug-55c565a43dbfa3a8007d.json",
+					"name" : "Union",
 					"projectIndex" : 0
 				}
 			]
