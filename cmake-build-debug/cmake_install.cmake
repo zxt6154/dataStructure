@@ -49,42 +49,52 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/alice/cLionProject/dataStructure/cmake-build-debug/helloworld/cmake_install.cmake")
+  include("/Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/helloworld/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/alice/cLionProject/dataStructure/cmake-build-debug/base_c/cmake_install.cmake")
+  include("/Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/base_c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/alice/cLionProject/dataStructure/cmake-build-debug/functionAbout/cmake_install.cmake")
+  include("/Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/functionAbout/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/alice/cLionProject/dataStructure/cmake-build-debug/pointer_c/cmake_install.cmake")
+  include("/Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/pointer_c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/alice/cLionProject/dataStructure/cmake-build-debug/malloc_c/cmake_install.cmake")
+  include("/Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/malloc_c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/alice/cLionProject/dataStructure/cmake-build-debug/str_c/cmake_install.cmake")
+  include("/Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/str_c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/alice/cLionProject/dataStructure/cmake-build-debug/structure_c/cmake_install.cmake")
+  include("/Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/structure_c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/alice/cLionProject/dataStructure/cmake-build-debug/union/cmake_install.cmake")
+  include("/Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/union/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/alice/cLionProject/dataStructure/cmake-build-debug/01-linklist/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/alice/cLionProject/dataStructure/cmake-build-debug/01-array/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

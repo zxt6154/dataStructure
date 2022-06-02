@@ -1,0 +1,351 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Status",
+					"jsonFile" : "directory-Status-Debug-0d59bafebdf1474c608a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Status",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "0201_SqList",
+					"jsonFile" : "directory-0201_SqList-Debug-97fb500372d4effabd88.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "0201_SqList",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "01-fundementary/helloworld",
+					"jsonFile" : "directory-01-fundementary.helloworld-Debug-d9023e08bdde2ef4553e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "01-fundementary/helloworld",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "01-fundementary/base_c",
+					"jsonFile" : "directory-01-fundementary.base_c-Debug-847c2d9df4c7f0010c51.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "01-fundementary/base_c",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "01-fundementary/functionAbout",
+					"jsonFile" : "directory-01-fundementary.functionAbout-Debug-a1171c6dca866414839b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "01-fundementary/functionAbout",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "01-fundementary/pointer_c",
+					"jsonFile" : "directory-01-fundementary.pointer_c-Debug-9339e9134432a26b269a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "01-fundementary/pointer_c",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "01-fundementary/malloc_c",
+					"jsonFile" : "directory-01-fundementary.malloc_c-Debug-bd447634fd7bd7ca5550.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "01-fundementary/malloc_c",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "01-fundementary/str_c",
+					"jsonFile" : "directory-01-fundementary.str_c-Debug-91bf751f952a96b73621.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "01-fundementary/str_c",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "01-fundementary/structure_c",
+					"jsonFile" : "directory-01-fundementary.structure_c-Debug-f5973432142c65f25a1e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "01-fundementary/structure_c",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "01-fundementary/union",
+					"jsonFile" : "directory-01-fundementary.union-Debug-739766af3a0f4d859a6d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "01-fundementary/union",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "01-linklist",
+					"jsonFile" : "directory-01-linklist-Debug-a06be89170b62238187f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "01-linklist",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "01-array",
+					"jsonFile" : "directory-01-array-Debug-cf0cddcb70711c3c1de7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "01-array",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					],
+					"name" : "CLion",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 12,
+					"id" : "ArrayCreate::@1f72dbf41bee58f5eca0",
+					"jsonFile" : "target-ArrayCreate-Debug-2f3f7b51a92ef8dc02ae.json",
+					"name" : "ArrayCreate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "BaseC::@77a7886d47602f4d8531",
+					"jsonFile" : "target-BaseC-Debug-f74b9387920f1240d731.json",
+					"name" : "BaseC",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "FunctionC::@f7a785ccb7bcbb177536",
+					"jsonFile" : "target-FunctionC-Debug-e1e11c9476c8f0116e00.json",
+					"name" : "FunctionC",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "LinkList::@a17a4202f865fa625f7d",
+					"jsonFile" : "target-LinkList-Debug-5611ca8cc98896aff4b9.json",
+					"name" : "LinkList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "MallocC::@70b354718780dabec11f",
+					"jsonFile" : "target-MallocC-Debug-d0c14bc544f9aafdcf73.json",
+					"name" : "MallocC",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "PointerC::@70b278f8614ba08a7641",
+					"jsonFile" : "target-PointerC-Debug-a1dfbff2d726e296ad8d.json",
+					"name" : "PointerC",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Scanf_lib::@fe314c4577536ad9eb12",
+					"jsonFile" : "target-Scanf_lib-Debug-22fd364625857eea0a0f.json",
+					"name" : "Scanf_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SqList::@26c4c67396cb5c18ce72",
+					"jsonFile" : "target-SqList-Debug-b6829afd22865d64c8fd.json",
+					"name" : "SqList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "StrC::@019fdc01234658c514f4",
+					"jsonFile" : "target-StrC-Debug-09da7f76fdb3196d4b70.json",
+					"name" : "StrC",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "StructureC::@adb9b36237c6026458ff",
+					"jsonFile" : "target-StructureC-Debug-1790c0afe4b6ceb79000.json",
+					"name" : "StructureC",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Test::@a423ab6dc5941c79d39e",
+					"jsonFile" : "target-Test-Debug-96a9e25e841812b6c8ed.json",
+					"name" : "Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "Union::@2f620e0c3d6b35379107",
+					"jsonFile" : "target-Union-Debug-0adba654c2211957e37f.json",
+					"name" : "Union",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/alice/cLionProject/dataStructure/cmake-build-debug",
+		"source" : "/Users/alice/cLionProject/dataStructure"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

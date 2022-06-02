@@ -205,12 +205,12 @@ build 0201_SqList/rebuild_cache: phony 0201_SqList/CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_Test: phony || cmake_object_order_depends_target_Scanf_lib
 
-build helloworld/CMakeFiles/Test.dir/Test.c.o: C_COMPILER__Test_Debug /Users/alice/cLionProject/dataStructure/helloworld/Test.c || cmake_object_order_depends_target_Test
-  DEP_FILE = helloworld/CMakeFiles/Test.dir/Test.c.o.d
+build 01-fundementary/helloworld/CMakeFiles/Test.dir/Test.c.o: C_COMPILER__Test_Debug /Users/alice/cLionProject/dataStructure/01-fundementary/helloworld/Test.c || cmake_object_order_depends_target_Test
+  DEP_FILE = 01-fundementary/helloworld/CMakeFiles/Test.dir/Test.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
   INCLUDES = -I/Users/alice/cLionProject/dataStructure
-  OBJECT_DIR = helloworld/CMakeFiles/Test.dir
-  OBJECT_FILE_DIR = helloworld/CMakeFiles/Test.dir
+  OBJECT_DIR = 01-fundementary/helloworld/CMakeFiles/Test.dir
+  OBJECT_FILE_DIR = 01-fundementary/helloworld/CMakeFiles/Test.dir
 
 
 # =============================================================================
@@ -218,39 +218,39 @@ build helloworld/CMakeFiles/Test.dir/Test.c.o: C_COMPILER__Test_Debug /Users/ali
 
 
 #############################################
-# Link the executable helloworld/Test
+# Link the executable 01-fundementary/helloworld/Test
 
-build helloworld/Test: C_EXECUTABLE_LINKER__Test_Debug helloworld/CMakeFiles/Test.dir/Test.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
+build 01-fundementary/helloworld/Test: C_EXECUTABLE_LINKER__Test_Debug 01-fundementary/helloworld/CMakeFiles/Test.dir/Test.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   LINK_LIBRARIES = Status/libScanf_lib.a
-  OBJECT_DIR = helloworld/CMakeFiles/Test.dir
+  OBJECT_DIR = 01-fundementary/helloworld/CMakeFiles/Test.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = helloworld/Test
+  TARGET_FILE = 01-fundementary/helloworld/Test
   TARGET_PDB = Test.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
-build helloworld/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/helloworld && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+build 01-fundementary/helloworld/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/helloworld && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build helloworld/edit_cache: phony helloworld/CMakeFiles/edit_cache.util
+build 01-fundementary/helloworld/edit_cache: phony 01-fundementary/helloworld/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build helloworld/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/helloworld && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/alice/cLionProject/dataStructure -B/Users/alice/cLionProject/dataStructure/cmake-build-debug
+build 01-fundementary/helloworld/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/helloworld && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/alice/cLionProject/dataStructure -B/Users/alice/cLionProject/dataStructure/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build helloworld/rebuild_cache: phony helloworld/CMakeFiles/rebuild_cache.util
+build 01-fundementary/helloworld/rebuild_cache: phony 01-fundementary/helloworld/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -266,19 +266,19 @@ build helloworld/rebuild_cache: phony helloworld/CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_BaseC: phony || cmake_object_order_depends_target_Scanf_lib
 
-build base_c/CMakeFiles/BaseC.dir/BaseC.c.o: C_COMPILER__BaseC_Debug /Users/alice/cLionProject/dataStructure/base_c/BaseC.c || cmake_object_order_depends_target_BaseC
-  DEP_FILE = base_c/CMakeFiles/BaseC.dir/BaseC.c.o.d
+build 01-fundementary/base_c/CMakeFiles/BaseC.dir/BaseC.c.o: C_COMPILER__BaseC_Debug /Users/alice/cLionProject/dataStructure/01-fundementary/base_c/BaseC.c || cmake_object_order_depends_target_BaseC
+  DEP_FILE = 01-fundementary/base_c/CMakeFiles/BaseC.dir/BaseC.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
   INCLUDES = -I/Users/alice/cLionProject/dataStructure
-  OBJECT_DIR = base_c/CMakeFiles/BaseC.dir
-  OBJECT_FILE_DIR = base_c/CMakeFiles/BaseC.dir
+  OBJECT_DIR = 01-fundementary/base_c/CMakeFiles/BaseC.dir
+  OBJECT_FILE_DIR = 01-fundementary/base_c/CMakeFiles/BaseC.dir
 
-build base_c/CMakeFiles/BaseC.dir/BaseC-main.c.o: C_COMPILER__BaseC_Debug /Users/alice/cLionProject/dataStructure/base_c/BaseC-main.c || cmake_object_order_depends_target_BaseC
-  DEP_FILE = base_c/CMakeFiles/BaseC.dir/BaseC-main.c.o.d
+build 01-fundementary/base_c/CMakeFiles/BaseC.dir/BaseC-main.c.o: C_COMPILER__BaseC_Debug /Users/alice/cLionProject/dataStructure/01-fundementary/base_c/BaseC-main.c || cmake_object_order_depends_target_BaseC
+  DEP_FILE = 01-fundementary/base_c/CMakeFiles/BaseC.dir/BaseC-main.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
   INCLUDES = -I/Users/alice/cLionProject/dataStructure
-  OBJECT_DIR = base_c/CMakeFiles/BaseC.dir
-  OBJECT_FILE_DIR = base_c/CMakeFiles/BaseC.dir
+  OBJECT_DIR = 01-fundementary/base_c/CMakeFiles/BaseC.dir
+  OBJECT_FILE_DIR = 01-fundementary/base_c/CMakeFiles/BaseC.dir
 
 
 # =============================================================================
@@ -286,39 +286,39 @@ build base_c/CMakeFiles/BaseC.dir/BaseC-main.c.o: C_COMPILER__BaseC_Debug /Users
 
 
 #############################################
-# Link the executable base_c/BaseC
+# Link the executable 01-fundementary/base_c/BaseC
 
-build base_c/BaseC: C_EXECUTABLE_LINKER__BaseC_Debug base_c/CMakeFiles/BaseC.dir/BaseC.c.o base_c/CMakeFiles/BaseC.dir/BaseC-main.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
+build 01-fundementary/base_c/BaseC: C_EXECUTABLE_LINKER__BaseC_Debug 01-fundementary/base_c/CMakeFiles/BaseC.dir/BaseC.c.o 01-fundementary/base_c/CMakeFiles/BaseC.dir/BaseC-main.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   LINK_LIBRARIES = Status/libScanf_lib.a
-  OBJECT_DIR = base_c/CMakeFiles/BaseC.dir
+  OBJECT_DIR = 01-fundementary/base_c/CMakeFiles/BaseC.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = base_c/BaseC
+  TARGET_FILE = 01-fundementary/base_c/BaseC
   TARGET_PDB = BaseC.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
-build base_c/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/base_c && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+build 01-fundementary/base_c/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/base_c && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build base_c/edit_cache: phony base_c/CMakeFiles/edit_cache.util
+build 01-fundementary/base_c/edit_cache: phony 01-fundementary/base_c/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build base_c/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/base_c && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/alice/cLionProject/dataStructure -B/Users/alice/cLionProject/dataStructure/cmake-build-debug
+build 01-fundementary/base_c/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/base_c && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/alice/cLionProject/dataStructure -B/Users/alice/cLionProject/dataStructure/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build base_c/rebuild_cache: phony base_c/CMakeFiles/rebuild_cache.util
+build 01-fundementary/base_c/rebuild_cache: phony 01-fundementary/base_c/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -334,19 +334,19 @@ build base_c/rebuild_cache: phony base_c/CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_FunctionC: phony || cmake_object_order_depends_target_Scanf_lib
 
-build functionAbout/CMakeFiles/FunctionC.dir/FunctionC.c.o: C_COMPILER__FunctionC_Debug /Users/alice/cLionProject/dataStructure/functionAbout/FunctionC.c || cmake_object_order_depends_target_FunctionC
-  DEP_FILE = functionAbout/CMakeFiles/FunctionC.dir/FunctionC.c.o.d
+build 01-fundementary/functionAbout/CMakeFiles/FunctionC.dir/FunctionC.c.o: C_COMPILER__FunctionC_Debug /Users/alice/cLionProject/dataStructure/01-fundementary/functionAbout/FunctionC.c || cmake_object_order_depends_target_FunctionC
+  DEP_FILE = 01-fundementary/functionAbout/CMakeFiles/FunctionC.dir/FunctionC.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
   INCLUDES = -I/Users/alice/cLionProject/dataStructure
-  OBJECT_DIR = functionAbout/CMakeFiles/FunctionC.dir
-  OBJECT_FILE_DIR = functionAbout/CMakeFiles/FunctionC.dir
+  OBJECT_DIR = 01-fundementary/functionAbout/CMakeFiles/FunctionC.dir
+  OBJECT_FILE_DIR = 01-fundementary/functionAbout/CMakeFiles/FunctionC.dir
 
-build functionAbout/CMakeFiles/FunctionC.dir/FunctionC-main.c.o: C_COMPILER__FunctionC_Debug /Users/alice/cLionProject/dataStructure/functionAbout/FunctionC-main.c || cmake_object_order_depends_target_FunctionC
-  DEP_FILE = functionAbout/CMakeFiles/FunctionC.dir/FunctionC-main.c.o.d
+build 01-fundementary/functionAbout/CMakeFiles/FunctionC.dir/FunctionC-main.c.o: C_COMPILER__FunctionC_Debug /Users/alice/cLionProject/dataStructure/01-fundementary/functionAbout/FunctionC-main.c || cmake_object_order_depends_target_FunctionC
+  DEP_FILE = 01-fundementary/functionAbout/CMakeFiles/FunctionC.dir/FunctionC-main.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
   INCLUDES = -I/Users/alice/cLionProject/dataStructure
-  OBJECT_DIR = functionAbout/CMakeFiles/FunctionC.dir
-  OBJECT_FILE_DIR = functionAbout/CMakeFiles/FunctionC.dir
+  OBJECT_DIR = 01-fundementary/functionAbout/CMakeFiles/FunctionC.dir
+  OBJECT_FILE_DIR = 01-fundementary/functionAbout/CMakeFiles/FunctionC.dir
 
 
 # =============================================================================
@@ -354,39 +354,39 @@ build functionAbout/CMakeFiles/FunctionC.dir/FunctionC-main.c.o: C_COMPILER__Fun
 
 
 #############################################
-# Link the executable functionAbout/FunctionC
+# Link the executable 01-fundementary/functionAbout/FunctionC
 
-build functionAbout/FunctionC: C_EXECUTABLE_LINKER__FunctionC_Debug functionAbout/CMakeFiles/FunctionC.dir/FunctionC.c.o functionAbout/CMakeFiles/FunctionC.dir/FunctionC-main.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
+build 01-fundementary/functionAbout/FunctionC: C_EXECUTABLE_LINKER__FunctionC_Debug 01-fundementary/functionAbout/CMakeFiles/FunctionC.dir/FunctionC.c.o 01-fundementary/functionAbout/CMakeFiles/FunctionC.dir/FunctionC-main.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   LINK_LIBRARIES = Status/libScanf_lib.a
-  OBJECT_DIR = functionAbout/CMakeFiles/FunctionC.dir
+  OBJECT_DIR = 01-fundementary/functionAbout/CMakeFiles/FunctionC.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = functionAbout/FunctionC
+  TARGET_FILE = 01-fundementary/functionAbout/FunctionC
   TARGET_PDB = FunctionC.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
-build functionAbout/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/functionAbout && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+build 01-fundementary/functionAbout/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/functionAbout && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build functionAbout/edit_cache: phony functionAbout/CMakeFiles/edit_cache.util
+build 01-fundementary/functionAbout/edit_cache: phony 01-fundementary/functionAbout/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build functionAbout/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/functionAbout && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/alice/cLionProject/dataStructure -B/Users/alice/cLionProject/dataStructure/cmake-build-debug
+build 01-fundementary/functionAbout/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/functionAbout && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/alice/cLionProject/dataStructure -B/Users/alice/cLionProject/dataStructure/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build functionAbout/rebuild_cache: phony functionAbout/CMakeFiles/rebuild_cache.util
+build 01-fundementary/functionAbout/rebuild_cache: phony 01-fundementary/functionAbout/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -402,19 +402,19 @@ build functionAbout/rebuild_cache: phony functionAbout/CMakeFiles/rebuild_cache.
 
 build cmake_object_order_depends_target_PointerC: phony || cmake_object_order_depends_target_Scanf_lib
 
-build pointer_c/CMakeFiles/PointerC.dir/PointC.c.o: C_COMPILER__PointerC_Debug /Users/alice/cLionProject/dataStructure/pointer_c/PointC.c || cmake_object_order_depends_target_PointerC
-  DEP_FILE = pointer_c/CMakeFiles/PointerC.dir/PointC.c.o.d
+build 01-fundementary/pointer_c/CMakeFiles/PointerC.dir/PointC.c.o: C_COMPILER__PointerC_Debug /Users/alice/cLionProject/dataStructure/01-fundementary/pointer_c/PointC.c || cmake_object_order_depends_target_PointerC
+  DEP_FILE = 01-fundementary/pointer_c/CMakeFiles/PointerC.dir/PointC.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
   INCLUDES = -I/Users/alice/cLionProject/dataStructure
-  OBJECT_DIR = pointer_c/CMakeFiles/PointerC.dir
-  OBJECT_FILE_DIR = pointer_c/CMakeFiles/PointerC.dir
+  OBJECT_DIR = 01-fundementary/pointer_c/CMakeFiles/PointerC.dir
+  OBJECT_FILE_DIR = 01-fundementary/pointer_c/CMakeFiles/PointerC.dir
 
-build pointer_c/CMakeFiles/PointerC.dir/PointC_main.c.o: C_COMPILER__PointerC_Debug /Users/alice/cLionProject/dataStructure/pointer_c/PointC_main.c || cmake_object_order_depends_target_PointerC
-  DEP_FILE = pointer_c/CMakeFiles/PointerC.dir/PointC_main.c.o.d
+build 01-fundementary/pointer_c/CMakeFiles/PointerC.dir/PointC_main.c.o: C_COMPILER__PointerC_Debug /Users/alice/cLionProject/dataStructure/01-fundementary/pointer_c/PointC_main.c || cmake_object_order_depends_target_PointerC
+  DEP_FILE = 01-fundementary/pointer_c/CMakeFiles/PointerC.dir/PointC_main.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
   INCLUDES = -I/Users/alice/cLionProject/dataStructure
-  OBJECT_DIR = pointer_c/CMakeFiles/PointerC.dir
-  OBJECT_FILE_DIR = pointer_c/CMakeFiles/PointerC.dir
+  OBJECT_DIR = 01-fundementary/pointer_c/CMakeFiles/PointerC.dir
+  OBJECT_FILE_DIR = 01-fundementary/pointer_c/CMakeFiles/PointerC.dir
 
 
 # =============================================================================
@@ -422,39 +422,39 @@ build pointer_c/CMakeFiles/PointerC.dir/PointC_main.c.o: C_COMPILER__PointerC_De
 
 
 #############################################
-# Link the executable pointer_c/PointerC
+# Link the executable 01-fundementary/pointer_c/PointerC
 
-build pointer_c/PointerC: C_EXECUTABLE_LINKER__PointerC_Debug pointer_c/CMakeFiles/PointerC.dir/PointC.c.o pointer_c/CMakeFiles/PointerC.dir/PointC_main.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
+build 01-fundementary/pointer_c/PointerC: C_EXECUTABLE_LINKER__PointerC_Debug 01-fundementary/pointer_c/CMakeFiles/PointerC.dir/PointC.c.o 01-fundementary/pointer_c/CMakeFiles/PointerC.dir/PointC_main.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   LINK_LIBRARIES = Status/libScanf_lib.a
-  OBJECT_DIR = pointer_c/CMakeFiles/PointerC.dir
+  OBJECT_DIR = 01-fundementary/pointer_c/CMakeFiles/PointerC.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = pointer_c/PointerC
+  TARGET_FILE = 01-fundementary/pointer_c/PointerC
   TARGET_PDB = PointerC.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
-build pointer_c/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/pointer_c && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+build 01-fundementary/pointer_c/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/pointer_c && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build pointer_c/edit_cache: phony pointer_c/CMakeFiles/edit_cache.util
+build 01-fundementary/pointer_c/edit_cache: phony 01-fundementary/pointer_c/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build pointer_c/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/pointer_c && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/alice/cLionProject/dataStructure -B/Users/alice/cLionProject/dataStructure/cmake-build-debug
+build 01-fundementary/pointer_c/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/pointer_c && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/alice/cLionProject/dataStructure -B/Users/alice/cLionProject/dataStructure/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build pointer_c/rebuild_cache: phony pointer_c/CMakeFiles/rebuild_cache.util
+build 01-fundementary/pointer_c/rebuild_cache: phony 01-fundementary/pointer_c/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -470,19 +470,19 @@ build pointer_c/rebuild_cache: phony pointer_c/CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_MallocC: phony || cmake_object_order_depends_target_Scanf_lib
 
-build malloc_c/CMakeFiles/MallocC.dir/MallocC.c.o: C_COMPILER__MallocC_Debug /Users/alice/cLionProject/dataStructure/malloc_c/MallocC.c || cmake_object_order_depends_target_MallocC
-  DEP_FILE = malloc_c/CMakeFiles/MallocC.dir/MallocC.c.o.d
+build 01-fundementary/malloc_c/CMakeFiles/MallocC.dir/MallocC.c.o: C_COMPILER__MallocC_Debug /Users/alice/cLionProject/dataStructure/01-fundementary/malloc_c/MallocC.c || cmake_object_order_depends_target_MallocC
+  DEP_FILE = 01-fundementary/malloc_c/CMakeFiles/MallocC.dir/MallocC.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
   INCLUDES = -I/Users/alice/cLionProject/dataStructure
-  OBJECT_DIR = malloc_c/CMakeFiles/MallocC.dir
-  OBJECT_FILE_DIR = malloc_c/CMakeFiles/MallocC.dir
+  OBJECT_DIR = 01-fundementary/malloc_c/CMakeFiles/MallocC.dir
+  OBJECT_FILE_DIR = 01-fundementary/malloc_c/CMakeFiles/MallocC.dir
 
-build malloc_c/CMakeFiles/MallocC.dir/MallocC_main.c.o: C_COMPILER__MallocC_Debug /Users/alice/cLionProject/dataStructure/malloc_c/MallocC_main.c || cmake_object_order_depends_target_MallocC
-  DEP_FILE = malloc_c/CMakeFiles/MallocC.dir/MallocC_main.c.o.d
+build 01-fundementary/malloc_c/CMakeFiles/MallocC.dir/MallocC_main.c.o: C_COMPILER__MallocC_Debug /Users/alice/cLionProject/dataStructure/01-fundementary/malloc_c/MallocC_main.c || cmake_object_order_depends_target_MallocC
+  DEP_FILE = 01-fundementary/malloc_c/CMakeFiles/MallocC.dir/MallocC_main.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
   INCLUDES = -I/Users/alice/cLionProject/dataStructure
-  OBJECT_DIR = malloc_c/CMakeFiles/MallocC.dir
-  OBJECT_FILE_DIR = malloc_c/CMakeFiles/MallocC.dir
+  OBJECT_DIR = 01-fundementary/malloc_c/CMakeFiles/MallocC.dir
+  OBJECT_FILE_DIR = 01-fundementary/malloc_c/CMakeFiles/MallocC.dir
 
 
 # =============================================================================
@@ -490,39 +490,39 @@ build malloc_c/CMakeFiles/MallocC.dir/MallocC_main.c.o: C_COMPILER__MallocC_Debu
 
 
 #############################################
-# Link the executable malloc_c/MallocC
+# Link the executable 01-fundementary/malloc_c/MallocC
 
-build malloc_c/MallocC: C_EXECUTABLE_LINKER__MallocC_Debug malloc_c/CMakeFiles/MallocC.dir/MallocC.c.o malloc_c/CMakeFiles/MallocC.dir/MallocC_main.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
+build 01-fundementary/malloc_c/MallocC: C_EXECUTABLE_LINKER__MallocC_Debug 01-fundementary/malloc_c/CMakeFiles/MallocC.dir/MallocC.c.o 01-fundementary/malloc_c/CMakeFiles/MallocC.dir/MallocC_main.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   LINK_LIBRARIES = Status/libScanf_lib.a
-  OBJECT_DIR = malloc_c/CMakeFiles/MallocC.dir
+  OBJECT_DIR = 01-fundementary/malloc_c/CMakeFiles/MallocC.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = malloc_c/MallocC
+  TARGET_FILE = 01-fundementary/malloc_c/MallocC
   TARGET_PDB = MallocC.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
-build malloc_c/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/malloc_c && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+build 01-fundementary/malloc_c/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/malloc_c && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build malloc_c/edit_cache: phony malloc_c/CMakeFiles/edit_cache.util
+build 01-fundementary/malloc_c/edit_cache: phony 01-fundementary/malloc_c/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build malloc_c/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/malloc_c && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/alice/cLionProject/dataStructure -B/Users/alice/cLionProject/dataStructure/cmake-build-debug
+build 01-fundementary/malloc_c/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/malloc_c && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/alice/cLionProject/dataStructure -B/Users/alice/cLionProject/dataStructure/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build malloc_c/rebuild_cache: phony malloc_c/CMakeFiles/rebuild_cache.util
+build 01-fundementary/malloc_c/rebuild_cache: phony 01-fundementary/malloc_c/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -538,19 +538,19 @@ build malloc_c/rebuild_cache: phony malloc_c/CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_StrC: phony || cmake_object_order_depends_target_Scanf_lib
 
-build str_c/CMakeFiles/StrC.dir/StrC.c.o: C_COMPILER__StrC_Debug /Users/alice/cLionProject/dataStructure/str_c/StrC.c || cmake_object_order_depends_target_StrC
-  DEP_FILE = str_c/CMakeFiles/StrC.dir/StrC.c.o.d
+build 01-fundementary/str_c/CMakeFiles/StrC.dir/StrC.c.o: C_COMPILER__StrC_Debug /Users/alice/cLionProject/dataStructure/01-fundementary/str_c/StrC.c || cmake_object_order_depends_target_StrC
+  DEP_FILE = 01-fundementary/str_c/CMakeFiles/StrC.dir/StrC.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
   INCLUDES = -I/Users/alice/cLionProject/dataStructure
-  OBJECT_DIR = str_c/CMakeFiles/StrC.dir
-  OBJECT_FILE_DIR = str_c/CMakeFiles/StrC.dir
+  OBJECT_DIR = 01-fundementary/str_c/CMakeFiles/StrC.dir
+  OBJECT_FILE_DIR = 01-fundementary/str_c/CMakeFiles/StrC.dir
 
-build str_c/CMakeFiles/StrC.dir/StrC_main.c.o: C_COMPILER__StrC_Debug /Users/alice/cLionProject/dataStructure/str_c/StrC_main.c || cmake_object_order_depends_target_StrC
-  DEP_FILE = str_c/CMakeFiles/StrC.dir/StrC_main.c.o.d
+build 01-fundementary/str_c/CMakeFiles/StrC.dir/StrC_main.c.o: C_COMPILER__StrC_Debug /Users/alice/cLionProject/dataStructure/01-fundementary/str_c/StrC_main.c || cmake_object_order_depends_target_StrC
+  DEP_FILE = 01-fundementary/str_c/CMakeFiles/StrC.dir/StrC_main.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
   INCLUDES = -I/Users/alice/cLionProject/dataStructure
-  OBJECT_DIR = str_c/CMakeFiles/StrC.dir
-  OBJECT_FILE_DIR = str_c/CMakeFiles/StrC.dir
+  OBJECT_DIR = 01-fundementary/str_c/CMakeFiles/StrC.dir
+  OBJECT_FILE_DIR = 01-fundementary/str_c/CMakeFiles/StrC.dir
 
 
 # =============================================================================
@@ -558,39 +558,39 @@ build str_c/CMakeFiles/StrC.dir/StrC_main.c.o: C_COMPILER__StrC_Debug /Users/ali
 
 
 #############################################
-# Link the executable str_c/StrC
+# Link the executable 01-fundementary/str_c/StrC
 
-build str_c/StrC: C_EXECUTABLE_LINKER__StrC_Debug str_c/CMakeFiles/StrC.dir/StrC.c.o str_c/CMakeFiles/StrC.dir/StrC_main.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
+build 01-fundementary/str_c/StrC: C_EXECUTABLE_LINKER__StrC_Debug 01-fundementary/str_c/CMakeFiles/StrC.dir/StrC.c.o 01-fundementary/str_c/CMakeFiles/StrC.dir/StrC_main.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   LINK_LIBRARIES = Status/libScanf_lib.a
-  OBJECT_DIR = str_c/CMakeFiles/StrC.dir
+  OBJECT_DIR = 01-fundementary/str_c/CMakeFiles/StrC.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = str_c/StrC
+  TARGET_FILE = 01-fundementary/str_c/StrC
   TARGET_PDB = StrC.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
-build str_c/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/str_c && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+build 01-fundementary/str_c/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/str_c && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build str_c/edit_cache: phony str_c/CMakeFiles/edit_cache.util
+build 01-fundementary/str_c/edit_cache: phony 01-fundementary/str_c/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build str_c/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/str_c && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/alice/cLionProject/dataStructure -B/Users/alice/cLionProject/dataStructure/cmake-build-debug
+build 01-fundementary/str_c/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/str_c && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/alice/cLionProject/dataStructure -B/Users/alice/cLionProject/dataStructure/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build str_c/rebuild_cache: phony str_c/CMakeFiles/rebuild_cache.util
+build 01-fundementary/str_c/rebuild_cache: phony 01-fundementary/str_c/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -606,19 +606,19 @@ build str_c/rebuild_cache: phony str_c/CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_StructureC: phony || cmake_object_order_depends_target_Scanf_lib
 
-build structure_c/CMakeFiles/StructureC.dir/StructureC.c.o: C_COMPILER__StructureC_Debug /Users/alice/cLionProject/dataStructure/structure_c/StructureC.c || cmake_object_order_depends_target_StructureC
-  DEP_FILE = structure_c/CMakeFiles/StructureC.dir/StructureC.c.o.d
+build 01-fundementary/structure_c/CMakeFiles/StructureC.dir/StructureC.c.o: C_COMPILER__StructureC_Debug /Users/alice/cLionProject/dataStructure/01-fundementary/structure_c/StructureC.c || cmake_object_order_depends_target_StructureC
+  DEP_FILE = 01-fundementary/structure_c/CMakeFiles/StructureC.dir/StructureC.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
   INCLUDES = -I/Users/alice/cLionProject/dataStructure
-  OBJECT_DIR = structure_c/CMakeFiles/StructureC.dir
-  OBJECT_FILE_DIR = structure_c/CMakeFiles/StructureC.dir
+  OBJECT_DIR = 01-fundementary/structure_c/CMakeFiles/StructureC.dir
+  OBJECT_FILE_DIR = 01-fundementary/structure_c/CMakeFiles/StructureC.dir
 
-build structure_c/CMakeFiles/StructureC.dir/StructureC-main.c.o: C_COMPILER__StructureC_Debug /Users/alice/cLionProject/dataStructure/structure_c/StructureC-main.c || cmake_object_order_depends_target_StructureC
-  DEP_FILE = structure_c/CMakeFiles/StructureC.dir/StructureC-main.c.o.d
+build 01-fundementary/structure_c/CMakeFiles/StructureC.dir/StructureC-main.c.o: C_COMPILER__StructureC_Debug /Users/alice/cLionProject/dataStructure/01-fundementary/structure_c/StructureC-main.c || cmake_object_order_depends_target_StructureC
+  DEP_FILE = 01-fundementary/structure_c/CMakeFiles/StructureC.dir/StructureC-main.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
   INCLUDES = -I/Users/alice/cLionProject/dataStructure
-  OBJECT_DIR = structure_c/CMakeFiles/StructureC.dir
-  OBJECT_FILE_DIR = structure_c/CMakeFiles/StructureC.dir
+  OBJECT_DIR = 01-fundementary/structure_c/CMakeFiles/StructureC.dir
+  OBJECT_FILE_DIR = 01-fundementary/structure_c/CMakeFiles/StructureC.dir
 
 
 # =============================================================================
@@ -626,39 +626,39 @@ build structure_c/CMakeFiles/StructureC.dir/StructureC-main.c.o: C_COMPILER__Str
 
 
 #############################################
-# Link the executable structure_c/StructureC
+# Link the executable 01-fundementary/structure_c/StructureC
 
-build structure_c/StructureC: C_EXECUTABLE_LINKER__StructureC_Debug structure_c/CMakeFiles/StructureC.dir/StructureC.c.o structure_c/CMakeFiles/StructureC.dir/StructureC-main.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
+build 01-fundementary/structure_c/StructureC: C_EXECUTABLE_LINKER__StructureC_Debug 01-fundementary/structure_c/CMakeFiles/StructureC.dir/StructureC.c.o 01-fundementary/structure_c/CMakeFiles/StructureC.dir/StructureC-main.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   LINK_LIBRARIES = Status/libScanf_lib.a
-  OBJECT_DIR = structure_c/CMakeFiles/StructureC.dir
+  OBJECT_DIR = 01-fundementary/structure_c/CMakeFiles/StructureC.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = structure_c/StructureC
+  TARGET_FILE = 01-fundementary/structure_c/StructureC
   TARGET_PDB = StructureC.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
-build structure_c/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/structure_c && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+build 01-fundementary/structure_c/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/structure_c && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build structure_c/edit_cache: phony structure_c/CMakeFiles/edit_cache.util
+build 01-fundementary/structure_c/edit_cache: phony 01-fundementary/structure_c/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build structure_c/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/structure_c && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/alice/cLionProject/dataStructure -B/Users/alice/cLionProject/dataStructure/cmake-build-debug
+build 01-fundementary/structure_c/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/structure_c && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/alice/cLionProject/dataStructure -B/Users/alice/cLionProject/dataStructure/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build structure_c/rebuild_cache: phony structure_c/CMakeFiles/rebuild_cache.util
+build 01-fundementary/structure_c/rebuild_cache: phony 01-fundementary/structure_c/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -674,19 +674,19 @@ build structure_c/rebuild_cache: phony structure_c/CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_Union: phony || cmake_object_order_depends_target_Scanf_lib
 
-build union/CMakeFiles/Union.dir/Union.c.o: C_COMPILER__Union_Debug /Users/alice/cLionProject/dataStructure/union/Union.c || cmake_object_order_depends_target_Union
-  DEP_FILE = union/CMakeFiles/Union.dir/Union.c.o.d
+build 01-fundementary/union/CMakeFiles/Union.dir/Union.c.o: C_COMPILER__Union_Debug /Users/alice/cLionProject/dataStructure/01-fundementary/union/Union.c || cmake_object_order_depends_target_Union
+  DEP_FILE = 01-fundementary/union/CMakeFiles/Union.dir/Union.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
   INCLUDES = -I/Users/alice/cLionProject/dataStructure
-  OBJECT_DIR = union/CMakeFiles/Union.dir
-  OBJECT_FILE_DIR = union/CMakeFiles/Union.dir
+  OBJECT_DIR = 01-fundementary/union/CMakeFiles/Union.dir
+  OBJECT_FILE_DIR = 01-fundementary/union/CMakeFiles/Union.dir
 
-build union/CMakeFiles/Union.dir/Union-main.c.o: C_COMPILER__Union_Debug /Users/alice/cLionProject/dataStructure/union/Union-main.c || cmake_object_order_depends_target_Union
-  DEP_FILE = union/CMakeFiles/Union.dir/Union-main.c.o.d
+build 01-fundementary/union/CMakeFiles/Union.dir/Union-main.c.o: C_COMPILER__Union_Debug /Users/alice/cLionProject/dataStructure/01-fundementary/union/Union-main.c || cmake_object_order_depends_target_Union
+  DEP_FILE = 01-fundementary/union/CMakeFiles/Union.dir/Union-main.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
   INCLUDES = -I/Users/alice/cLionProject/dataStructure
-  OBJECT_DIR = union/CMakeFiles/Union.dir
-  OBJECT_FILE_DIR = union/CMakeFiles/Union.dir
+  OBJECT_DIR = 01-fundementary/union/CMakeFiles/Union.dir
+  OBJECT_FILE_DIR = 01-fundementary/union/CMakeFiles/Union.dir
 
 
 # =============================================================================
@@ -694,62 +694,202 @@ build union/CMakeFiles/Union.dir/Union-main.c.o: C_COMPILER__Union_Debug /Users/
 
 
 #############################################
-# Link the executable union/Union
+# Link the executable 01-fundementary/union/Union
 
-build union/Union: C_EXECUTABLE_LINKER__Union_Debug union/CMakeFiles/Union.dir/Union.c.o union/CMakeFiles/Union.dir/Union-main.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
+build 01-fundementary/union/Union: C_EXECUTABLE_LINKER__Union_Debug 01-fundementary/union/CMakeFiles/Union.dir/Union.c.o 01-fundementary/union/CMakeFiles/Union.dir/Union-main.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   LINK_LIBRARIES = Status/libScanf_lib.a
-  OBJECT_DIR = union/CMakeFiles/Union.dir
+  OBJECT_DIR = 01-fundementary/union/CMakeFiles/Union.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = union/Union
+  TARGET_FILE = 01-fundementary/union/Union
   TARGET_PDB = Union.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
-build union/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/union && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+build 01-fundementary/union/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/union && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build union/edit_cache: phony union/CMakeFiles/edit_cache.util
+build 01-fundementary/union/edit_cache: phony 01-fundementary/union/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build union/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/union && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/alice/cLionProject/dataStructure -B/Users/alice/cLionProject/dataStructure/cmake-build-debug
+build 01-fundementary/union/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/union && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/alice/cLionProject/dataStructure -B/Users/alice/cLionProject/dataStructure/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build union/rebuild_cache: phony union/CMakeFiles/rebuild_cache.util
+build 01-fundementary/union/rebuild_cache: phony 01-fundementary/union/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/alice/cLionProject/dataStructure/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target LinkList
+
+
+#############################################
+# Order-only phony target for LinkList
+
+build cmake_object_order_depends_target_LinkList: phony || cmake_object_order_depends_target_Scanf_lib
+
+build 01-linklist/CMakeFiles/LinkList.dir/LinkList.c.o: C_COMPILER__LinkList_Debug /Users/alice/cLionProject/dataStructure/01-linklist/LinkList.c || cmake_object_order_depends_target_LinkList
+  DEP_FILE = 01-linklist/CMakeFiles/LinkList.dir/LinkList.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
+  INCLUDES = -I/Users/alice/cLionProject/dataStructure
+  OBJECT_DIR = 01-linklist/CMakeFiles/LinkList.dir
+  OBJECT_FILE_DIR = 01-linklist/CMakeFiles/LinkList.dir
+
+build 01-linklist/CMakeFiles/LinkList.dir/LinkList-main.c.o: C_COMPILER__LinkList_Debug /Users/alice/cLionProject/dataStructure/01-linklist/LinkList-main.c || cmake_object_order_depends_target_LinkList
+  DEP_FILE = 01-linklist/CMakeFiles/LinkList.dir/LinkList-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
+  INCLUDES = -I/Users/alice/cLionProject/dataStructure
+  OBJECT_DIR = 01-linklist/CMakeFiles/LinkList.dir
+  OBJECT_FILE_DIR = 01-linklist/CMakeFiles/LinkList.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LinkList
+
+
+#############################################
+# Link the executable 01-linklist/LinkList
+
+build 01-linklist/LinkList: C_EXECUTABLE_LINKER__LinkList_Debug 01-linklist/CMakeFiles/LinkList.dir/LinkList.c.o 01-linklist/CMakeFiles/LinkList.dir/LinkList-main.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  LINK_LIBRARIES = Status/libScanf_lib.a
+  OBJECT_DIR = 01-linklist/CMakeFiles/LinkList.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 01-linklist/LinkList
+  TARGET_PDB = LinkList.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 01-linklist/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-linklist && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 01-linklist/edit_cache: phony 01-linklist/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 01-linklist/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-linklist && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/alice/cLionProject/dataStructure -B/Users/alice/cLionProject/dataStructure/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 01-linklist/rebuild_cache: phony 01-linklist/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/alice/cLionProject/dataStructure/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ArrayCreate
+
+
+#############################################
+# Order-only phony target for ArrayCreate
+
+build cmake_object_order_depends_target_ArrayCreate: phony || cmake_object_order_depends_target_Scanf_lib
+
+build 01-array/CMakeFiles/ArrayCreate.dir/ArrayCreate.c.o: C_COMPILER__ArrayCreate_Debug /Users/alice/cLionProject/dataStructure/01-array/ArrayCreate.c || cmake_object_order_depends_target_ArrayCreate
+  DEP_FILE = 01-array/CMakeFiles/ArrayCreate.dir/ArrayCreate.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
+  INCLUDES = -I/Users/alice/cLionProject/dataStructure
+  OBJECT_DIR = 01-array/CMakeFiles/ArrayCreate.dir
+  OBJECT_FILE_DIR = 01-array/CMakeFiles/ArrayCreate.dir
+
+build 01-array/CMakeFiles/ArrayCreate.dir/ArrayCreate-main.c.o: C_COMPILER__ArrayCreate_Debug /Users/alice/cLionProject/dataStructure/01-array/ArrayCreate-main.c || cmake_object_order_depends_target_ArrayCreate
+  DEP_FILE = 01-array/CMakeFiles/ArrayCreate.dir/ArrayCreate-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
+  INCLUDES = -I/Users/alice/cLionProject/dataStructure
+  OBJECT_DIR = 01-array/CMakeFiles/ArrayCreate.dir
+  OBJECT_FILE_DIR = 01-array/CMakeFiles/ArrayCreate.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ArrayCreate
+
+
+#############################################
+# Link the executable 01-array/ArrayCreate
+
+build 01-array/ArrayCreate: C_EXECUTABLE_LINKER__ArrayCreate_Debug 01-array/CMakeFiles/ArrayCreate.dir/ArrayCreate.c.o 01-array/CMakeFiles/ArrayCreate.dir/ArrayCreate-main.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  LINK_LIBRARIES = Status/libScanf_lib.a
+  OBJECT_DIR = 01-array/CMakeFiles/ArrayCreate.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 01-array/ArrayCreate
+  TARGET_PDB = ArrayCreate.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 01-array/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-array && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 01-array/edit_cache: phony 01-array/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 01-array/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-array && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/alice/cLionProject/dataStructure -B/Users/alice/cLionProject/dataStructure/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 01-array/rebuild_cache: phony 01-array/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
 
-build BaseC: phony base_c/BaseC
+build ArrayCreate: phony 01-array/ArrayCreate
 
-build FunctionC: phony functionAbout/FunctionC
+build BaseC: phony 01-fundementary/base_c/BaseC
 
-build MallocC: phony malloc_c/MallocC
+build FunctionC: phony 01-fundementary/functionAbout/FunctionC
 
-build PointerC: phony pointer_c/PointerC
+build LinkList: phony 01-linklist/LinkList
+
+build MallocC: phony 01-fundementary/malloc_c/MallocC
+
+build PointerC: phony 01-fundementary/pointer_c/PointerC
 
 build Scanf_lib: phony Status/libScanf_lib.a
 
 build SqList: phony 0201_SqList/SqList
 
-build StrC: phony str_c/StrC
+build StrC: phony 01-fundementary/str_c/StrC
 
-build StructureC: phony structure_c/StructureC
+build StructureC: phony 01-fundementary/structure_c/StructureC
 
-build Test: phony helloworld/Test
+build Test: phony 01-fundementary/helloworld/Test
 
-build Union: phony union/Union
+build Union: phony 01-fundementary/union/Union
 
 build libScanf_lib.a: phony Status/libScanf_lib.a
 
@@ -761,7 +901,77 @@ build libScanf_lib.a: phony Status/libScanf_lib.a
 #############################################
 # Folder: /Users/alice/cLionProject/dataStructure/cmake-build-debug
 
-build all: phony Status/all 0201_SqList/all helloworld/all base_c/all functionAbout/all pointer_c/all malloc_c/all str_c/all structure_c/all union/all
+build all: phony Status/all 0201_SqList/all 01-fundementary/helloworld/all 01-fundementary/base_c/all 01-fundementary/functionAbout/all 01-fundementary/pointer_c/all 01-fundementary/malloc_c/all 01-fundementary/str_c/all 01-fundementary/structure_c/all 01-fundementary/union/all 01-linklist/all 01-array/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-array
+
+build 01-array/all: phony 01-array/ArrayCreate
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/base_c
+
+build 01-fundementary/base_c/all: phony 01-fundementary/base_c/BaseC
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/functionAbout
+
+build 01-fundementary/functionAbout/all: phony 01-fundementary/functionAbout/FunctionC
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/helloworld
+
+build 01-fundementary/helloworld/all: phony 01-fundementary/helloworld/Test
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/malloc_c
+
+build 01-fundementary/malloc_c/all: phony 01-fundementary/malloc_c/MallocC
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/pointer_c
+
+build 01-fundementary/pointer_c/all: phony 01-fundementary/pointer_c/PointerC
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/str_c
+
+build 01-fundementary/str_c/all: phony 01-fundementary/str_c/StrC
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/structure_c
+
+build 01-fundementary/structure_c/all: phony 01-fundementary/structure_c/StructureC
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-fundementary/union
+
+build 01-fundementary/union/all: phony 01-fundementary/union/Union
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-linklist
+
+build 01-linklist/all: phony 01-linklist/LinkList
 
 # =============================================================================
 
@@ -778,76 +988,20 @@ build 0201_SqList/all: phony 0201_SqList/SqList
 build Status/all: phony Status/libScanf_lib.a
 
 # =============================================================================
-
-#############################################
-# Folder: /Users/alice/cLionProject/dataStructure/cmake-build-debug/base_c
-
-build base_c/all: phony base_c/BaseC
-
-# =============================================================================
-
-#############################################
-# Folder: /Users/alice/cLionProject/dataStructure/cmake-build-debug/functionAbout
-
-build functionAbout/all: phony functionAbout/FunctionC
-
-# =============================================================================
-
-#############################################
-# Folder: /Users/alice/cLionProject/dataStructure/cmake-build-debug/helloworld
-
-build helloworld/all: phony helloworld/Test
-
-# =============================================================================
-
-#############################################
-# Folder: /Users/alice/cLionProject/dataStructure/cmake-build-debug/malloc_c
-
-build malloc_c/all: phony malloc_c/MallocC
-
-# =============================================================================
-
-#############################################
-# Folder: /Users/alice/cLionProject/dataStructure/cmake-build-debug/pointer_c
-
-build pointer_c/all: phony pointer_c/PointerC
-
-# =============================================================================
-
-#############################################
-# Folder: /Users/alice/cLionProject/dataStructure/cmake-build-debug/str_c
-
-build str_c/all: phony str_c/StrC
-
-# =============================================================================
-
-#############################################
-# Folder: /Users/alice/cLionProject/dataStructure/cmake-build-debug/structure_c
-
-build structure_c/all: phony structure_c/StructureC
-
-# =============================================================================
-
-#############################################
-# Folder: /Users/alice/cLionProject/dataStructure/cmake-build-debug/union
-
-build union/all: phony union/Union
-
-# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../0201_SqList/CMakeLists.txt ../CMakeLists.txt ../Status/CMakeLists.txt ../base_c/CMakeLists.txt ../functionAbout/CMakeLists.txt ../helloworld/CMakeLists.txt ../malloc_c/CMakeLists.txt ../pointer_c/CMakeLists.txt ../str_c/CMakeLists.txt ../structure_c/CMakeLists.txt ../union/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../01-array/CMakeLists.txt ../01-fundementary/base_c/CMakeLists.txt ../01-fundementary/functionAbout/CMakeLists.txt ../01-fundementary/helloworld/CMakeLists.txt ../01-fundementary/malloc_c/CMakeLists.txt ../01-fundementary/pointer_c/CMakeLists.txt ../01-fundementary/str_c/CMakeLists.txt ../01-fundementary/structure_c/CMakeLists.txt ../01-fundementary/union/CMakeLists.txt ../01-linklist/CMakeLists.txt ../0201_SqList/CMakeLists.txt ../CMakeLists.txt ../Status/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../0201_SqList/CMakeLists.txt ../CMakeLists.txt ../Status/CMakeLists.txt ../base_c/CMakeLists.txt ../functionAbout/CMakeLists.txt ../helloworld/CMakeLists.txt ../malloc_c/CMakeLists.txt ../pointer_c/CMakeLists.txt ../str_c/CMakeLists.txt ../structure_c/CMakeLists.txt ../union/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
+build ../01-array/CMakeLists.txt ../01-fundementary/base_c/CMakeLists.txt ../01-fundementary/functionAbout/CMakeLists.txt ../01-fundementary/helloworld/CMakeLists.txt ../01-fundementary/malloc_c/CMakeLists.txt ../01-fundementary/pointer_c/CMakeLists.txt ../01-fundementary/str_c/CMakeLists.txt ../01-fundementary/structure_c/CMakeLists.txt ../01-fundementary/union/CMakeLists.txt ../01-linklist/CMakeLists.txt ../0201_SqList/CMakeLists.txt ../CMakeLists.txt ../Status/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
 
 
 #############################################
