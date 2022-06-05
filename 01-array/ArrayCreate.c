@@ -30,7 +30,8 @@ int* array_at(Array *array, int index) {
 void array_inflate(Array *array, int more_size) {
     //int newSize = array->size + more_size;
     array->size += more_size;
-
     int *p = (int*) malloc(sizeof(int)*(array->size + more_size));
+
+
 
 }

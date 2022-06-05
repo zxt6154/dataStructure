@@ -137,6 +137,9 @@
 		},
 		{
 			"path" : "01-array/CMakeLists.txt"
+		},
+		{
+			"path" : "sortsAndSearch/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

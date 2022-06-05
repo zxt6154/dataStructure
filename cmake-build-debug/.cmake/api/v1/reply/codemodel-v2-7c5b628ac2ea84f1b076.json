@@ -19,7 +19,8 @@
 						9,
 						10,
 						11,
-						12
+						12,
+						13
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -56,7 +57,7 @@
 					"source" : "0201_SqList",
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
@@ -71,7 +72,7 @@
 					"source" : "01-fundementary/helloworld",
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -146,7 +147,7 @@
 					"source" : "01-fundementary/str_c",
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
@@ -161,7 +162,7 @@
 					"source" : "01-fundementary/structure_c",
 					"targetIndexes" : 
 					[
-						9
+						10
 					]
 				},
 				{
@@ -176,7 +177,7 @@
 					"source" : "01-fundementary/union",
 					"targetIndexes" : 
 					[
-						11
+						12
 					]
 				},
 				{
@@ -208,6 +209,21 @@
 					[
 						0
 					]
+				},
+				{
+					"build" : "sortsAndSearch",
+					"jsonFile" : "directory-sortsAndSearch-Debug-1fdf35cf76a00e4996a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sortsAndSearch",
+					"targetIndexes" : 
+					[
+						7
+					]
 				}
 			],
 			"name" : "Debug",
@@ -228,7 +244,8 @@
 						9,
 						10,
 						11,
-						12
+						12,
+						13
 					],
 					"name" : "CLion",
 					"targetIndexes" : 
@@ -244,7 +261,8 @@
 						8,
 						9,
 						10,
-						11
+						11,
+						12
 					]
 				}
 			],
@@ -297,6 +315,13 @@
 					"id" : "Scanf_lib::@fe314c4577536ad9eb12",
 					"jsonFile" : "target-Scanf_lib-Debug-22fd364625857eea0a0f.json",
 					"name" : "Scanf_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "SortsAndSearch::@61380d68ff9303d30789",
+					"jsonFile" : "target-SortsAndSearch-Debug-0a5ae16e531c99e2996f.json",
+					"name" : "SortsAndSearch",
 					"projectIndex" : 0
 				},
 				{

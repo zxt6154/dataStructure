@@ -36,3 +36,6 @@
 /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-array/CMakeFiles/ArrayCreate.dir
 /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-array/CMakeFiles/edit_cache.dir
 /Users/alice/cLionProject/dataStructure/cmake-build-debug/01-array/CMakeFiles/rebuild_cache.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/sortsAndSearch/CMakeFiles/SortsAndSearch.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/sortsAndSearch/CMakeFiles/edit_cache.dir
+/Users/alice/cLionProject/dataStructure/cmake-build-debug/sortsAndSearch/CMakeFiles/rebuild_cache.dir
