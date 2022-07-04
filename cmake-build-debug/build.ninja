@@ -933,6 +933,74 @@ build sortsAndSearch/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build sortsAndSearch/rebuild_cache: phony sortsAndSearch/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/alice/cLionProject/dataStructure/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SortAndSearch02
+
+
+#############################################
+# Order-only phony target for SortAndSearch02
+
+build cmake_object_order_depends_target_SortAndSearch02: phony || cmake_object_order_depends_target_Scanf_lib
+
+build 02-sort/CMakeFiles/SortAndSearch02.dir/SortAndSearch02.c.o: C_COMPILER__SortAndSearch02_Debug /Users/alice/cLionProject/dataStructure/02-sort/SortAndSearch02.c || cmake_object_order_depends_target_SortAndSearch02
+  DEP_FILE = 02-sort/CMakeFiles/SortAndSearch02.dir/SortAndSearch02.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
+  INCLUDES = -I/Users/alice/cLionProject/dataStructure
+  OBJECT_DIR = 02-sort/CMakeFiles/SortAndSearch02.dir
+  OBJECT_FILE_DIR = 02-sort/CMakeFiles/SortAndSearch02.dir
+
+build 02-sort/CMakeFiles/SortAndSearch02.dir/SortAndSearch02-main.c.o: C_COMPILER__SortAndSearch02_Debug /Users/alice/cLionProject/dataStructure/02-sort/SortAndSearch02-main.c || cmake_object_order_depends_target_SortAndSearch02
+  DEP_FILE = 02-sort/CMakeFiles/SortAndSearch02.dir/SortAndSearch02-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
+  INCLUDES = -I/Users/alice/cLionProject/dataStructure
+  OBJECT_DIR = 02-sort/CMakeFiles/SortAndSearch02.dir
+  OBJECT_FILE_DIR = 02-sort/CMakeFiles/SortAndSearch02.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SortAndSearch02
+
+
+#############################################
+# Link the executable 02-sort/SortAndSearch02
+
+build 02-sort/SortAndSearch02: C_EXECUTABLE_LINKER__SortAndSearch02_Debug 02-sort/CMakeFiles/SortAndSearch02.dir/SortAndSearch02.c.o 02-sort/CMakeFiles/SortAndSearch02.dir/SortAndSearch02-main.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  LINK_LIBRARIES = Status/libScanf_lib.a
+  OBJECT_DIR = 02-sort/CMakeFiles/SortAndSearch02.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 02-sort/SortAndSearch02
+  TARGET_PDB = SortAndSearch02.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 02-sort/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/02-sort && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 02-sort/edit_cache: phony 02-sort/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 02-sort/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alice/cLionProject/dataStructure/cmake-build-debug/02-sort && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/alice/cLionProject/dataStructure -B/Users/alice/cLionProject/dataStructure/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 02-sort/rebuild_cache: phony 02-sort/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build ArrayCreate: phony 01-array/ArrayCreate
@@ -948,6 +1016,8 @@ build MallocC: phony 01-fundementary/malloc_c/MallocC
 build PointerC: phony 01-fundementary/pointer_c/PointerC
 
 build Scanf_lib: phony Status/libScanf_lib.a
+
+build SortAndSearch02: phony 02-sort/SortAndSearch02
 
 build SortsAndSearch: phony sortsAndSearch/SortsAndSearch
 
@@ -971,7 +1041,7 @@ build libScanf_lib.a: phony Status/libScanf_lib.a
 #############################################
 # Folder: /Users/alice/cLionProject/dataStructure/cmake-build-debug
 
-build all: phony Status/all 0201_SqList/all 01-fundementary/helloworld/all 01-fundementary/base_c/all 01-fundementary/functionAbout/all 01-fundementary/pointer_c/all 01-fundementary/malloc_c/all 01-fundementary/str_c/all 01-fundementary/structure_c/all 01-fundementary/union/all 01-linklist/all 01-array/all sortsAndSearch/all
+build all: phony Status/all 0201_SqList/all 01-fundementary/helloworld/all 01-fundementary/base_c/all 01-fundementary/functionAbout/all 01-fundementary/pointer_c/all 01-fundementary/malloc_c/all 01-fundementary/str_c/all 01-fundementary/structure_c/all 01-fundementary/union/all 01-linklist/all 01-array/all sortsAndSearch/all 02-sort/all
 
 # =============================================================================
 
@@ -1046,6 +1116,13 @@ build 01-linklist/all: phony 01-linklist/LinkList
 # =============================================================================
 
 #############################################
+# Folder: /Users/alice/cLionProject/dataStructure/cmake-build-debug/02-sort
+
+build 02-sort/all: phony 02-sort/SortAndSearch02
+
+# =============================================================================
+
+#############################################
 # Folder: /Users/alice/cLionProject/dataStructure/cmake-build-debug/0201_SqList
 
 build 0201_SqList/all: phony 0201_SqList/SqList
@@ -1071,14 +1148,14 @@ build sortsAndSearch/all: phony sortsAndSearch/SortsAndSearch
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../01-array/CMakeLists.txt ../01-fundementary/base_c/CMakeLists.txt ../01-fundementary/functionAbout/CMakeLists.txt ../01-fundementary/helloworld/CMakeLists.txt ../01-fundementary/malloc_c/CMakeLists.txt ../01-fundementary/pointer_c/CMakeLists.txt ../01-fundementary/str_c/CMakeLists.txt ../01-fundementary/structure_c/CMakeLists.txt ../01-fundementary/union/CMakeLists.txt ../01-linklist/CMakeLists.txt ../0201_SqList/CMakeLists.txt ../CMakeLists.txt ../Status/CMakeLists.txt ../sortsAndSearch/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../01-array/CMakeLists.txt ../01-fundementary/base_c/CMakeLists.txt ../01-fundementary/functionAbout/CMakeLists.txt ../01-fundementary/helloworld/CMakeLists.txt ../01-fundementary/malloc_c/CMakeLists.txt ../01-fundementary/pointer_c/CMakeLists.txt ../01-fundementary/str_c/CMakeLists.txt ../01-fundementary/structure_c/CMakeLists.txt ../01-fundementary/union/CMakeLists.txt ../01-linklist/CMakeLists.txt ../02-sort/CMakeLists.txt ../0201_SqList/CMakeLists.txt ../CMakeLists.txt ../Status/CMakeLists.txt ../sortsAndSearch/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../01-array/CMakeLists.txt ../01-fundementary/base_c/CMakeLists.txt ../01-fundementary/functionAbout/CMakeLists.txt ../01-fundementary/helloworld/CMakeLists.txt ../01-fundementary/malloc_c/CMakeLists.txt ../01-fundementary/pointer_c/CMakeLists.txt ../01-fundementary/str_c/CMakeLists.txt ../01-fundementary/structure_c/CMakeLists.txt ../01-fundementary/union/CMakeLists.txt ../01-linklist/CMakeLists.txt ../0201_SqList/CMakeLists.txt ../CMakeLists.txt ../Status/CMakeLists.txt ../sortsAndSearch/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
+build ../01-array/CMakeLists.txt ../01-fundementary/base_c/CMakeLists.txt ../01-fundementary/functionAbout/CMakeLists.txt ../01-fundementary/helloworld/CMakeLists.txt ../01-fundementary/malloc_c/CMakeLists.txt ../01-fundementary/pointer_c/CMakeLists.txt ../01-fundementary/str_c/CMakeLists.txt ../01-fundementary/structure_c/CMakeLists.txt ../01-fundementary/union/CMakeLists.txt ../01-linklist/CMakeLists.txt ../02-sort/CMakeLists.txt ../0201_SqList/CMakeLists.txt ../CMakeLists.txt ../Status/CMakeLists.txt ../sortsAndSearch/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
 
 
 #############################################

@@ -15,4 +15,11 @@ void swap(int *a1, int *a2);
 
 void shell_sort(int arr[], int len);
 
-void sel_sort(iint arr[], int len);
+void sel_sort(int arr[], int len);
+
+void heap_sort(int arr[], int len);
+
+
+void merge_sort(int arr[], int len);
+
+void mSort(int arr[], int arrTemp[], int liftIndex, int rightIndex);

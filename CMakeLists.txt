@@ -16,3 +16,5 @@ add_subdirectory(01-fundementary/union)
 add_subdirectory(01-linklist)
 add_subdirectory(01-array)
 add_subdirectory(sortsAndSearch)
+
+add_subdirectory(02-sort)

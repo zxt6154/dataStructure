@@ -140,6 +140,9 @@
 		},
 		{
 			"path" : "sortsAndSearch/CMakeLists.txt"
+		},
+		{
+			"path" : "02-sort/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

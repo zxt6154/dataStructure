@@ -4,6 +4,7 @@
 
 #include "SortsAndSearch.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 void bubble_sort(int arr[], int len) {
 
@@ -69,4 +70,41 @@ void sel_sort(int arr[], int len) {
 
         //将未排序部分放到有序部分的最后位
     }
+}
+
+//void heap_sort(int arr[], int len) {
+//    for(int i = len/2; i >= 0; i--) {
+//
+//    }
+//
+//    for (int j = len - 1; j > 0 ; j--) {
+//
+//    }
+//}
+
+void merge_sort(int arr[], int len) {
+    int *tempArr;
+    tempArr = malloc(len * sizeof(int ));
+    if (tempArr != NULL) {
+        mSort(arr, tempArr, 0, len-1);
+        //malloc 释放！！！
+        free(tempArr);
+    }
+    //else Error()
+};
+
+/**
+ * 归并排序
+ * @param arr
+ * @param arrTemp
+ * @param liftIndex
+ * @param rightIndex
+ */
+void mSort(int arr[], int arrTemp[], int leftIndex, int rightIndex) {
+    //记录中间位置
+    int center;
+    if() {
+
+    }
+
 }
