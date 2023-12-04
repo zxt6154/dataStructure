@@ -19,5 +19,5 @@ int median3(int intArr[], int left, int right) {
     if(intArr[left] > intArr[right])        swap(&intArr[left], &intArr[right]);
     if(intArr[center] > intArr[right])      swap(&intArr[center], &intArr[right]);
 
-    return 0;
+    return intArr[right-1];
 }

@@ -2,6 +2,6 @@
 include_directories(${CMAKE_SOURCE_DIR})
 
 #生成可执行文件
-add_executable(PointerC PointC.c PointC.h PointC_main.c)
+add_executable(PointerC PointC.c PointC.h PointC_main.c CPointer.c CPointer.h)
 #链接公共库
 target_link_libraries(PointerC Scanf_lib)

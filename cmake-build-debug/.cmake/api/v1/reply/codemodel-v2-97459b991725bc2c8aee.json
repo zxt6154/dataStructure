@@ -21,7 +21,8 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -227,6 +228,21 @@
 					]
 				},
 				{
+					"build" : "tree/binary_tree",
+					"jsonFile" : "directory-tree.binary_tree-Debug-a7b39e9dd029b4a9564b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tree/binary_tree",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
 					"build" : "02-sort",
 					"jsonFile" : "directory-02-sort-Debug-e8660d5a6aace3e175ee.json",
 					"minimumCMakeVersion" : 
@@ -262,7 +278,8 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15
 					],
 					"name" : "CLion",
 					"targetIndexes" : 
@@ -280,7 +297,8 @@
 						10,
 						11,
 						12,
-						13
+						13,
+						14
 					]
 				}
 			],
@@ -324,19 +342,19 @@
 				{
 					"directoryIndex" : 6,
 					"id" : "PointerC::@70b278f8614ba08a7641",
-					"jsonFile" : "target-PointerC-Debug-a1dfbff2d726e296ad8d.json",
+					"jsonFile" : "target-PointerC-Debug-cecb99be7f710241b028.json",
 					"name" : "PointerC",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "Scanf_lib::@fe314c4577536ad9eb12",
-					"jsonFile" : "target-Scanf_lib-Debug-22fd364625857eea0a0f.json",
+					"jsonFile" : "target-Scanf_lib-Debug-a57fd034daa4ce8ffc71.json",
 					"name" : "Scanf_lib",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 14,
+					"directoryIndex" : 15,
 					"id" : "SortAndSearch02::@0d243cfa11e56bfed27c",
 					"jsonFile" : "target-SortAndSearch02-Debug-d5534073d6e3df6070e9.json",
 					"name" : "SortAndSearch02",
@@ -382,6 +400,13 @@
 					"id" : "Union::@2f620e0c3d6b35379107",
 					"jsonFile" : "target-Union-Debug-0adba654c2211957e37f.json",
 					"name" : "Union",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "binary_tree::@f6fc2f65cbdb1d3471f2",
+					"jsonFile" : "target-binary_tree-Debug-dc97441ebb6bcbe73591.json",
+					"name" : "binary_tree",
 					"projectIndex" : 0
 				}
 			]

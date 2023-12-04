@@ -46,7 +46,7 @@ void minmaxMain() {
 }
 
 
-void f(int *p) {
+void f(int* p) { //一个地址
     printf(" p = %p\n ", p);
     printf(" *p = %d\n ", *p);
     *p = 29;

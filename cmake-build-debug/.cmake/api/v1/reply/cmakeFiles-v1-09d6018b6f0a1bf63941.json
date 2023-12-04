@@ -142,6 +142,9 @@
 			"path" : "sortsAndSearch/CMakeLists.txt"
 		},
 		{
+			"path" : "tree/binary_tree/CMakeLists.txt"
+		},
+		{
 			"path" : "02-sort/CMakeLists.txt"
 		}
 	],

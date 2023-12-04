@@ -1,0 +1,1 @@
+//// Created by alice on 2022/12/19.//#include <stdlib.h>#include <stdio.h>#include "binary_tree.h"int main(int argc, char const *argv[]) {   TreeNode* root = createBinaryTree();    int* returnSize = malloc(sizeof(int) * 501);    inorderTraversal(root, returnSize);}

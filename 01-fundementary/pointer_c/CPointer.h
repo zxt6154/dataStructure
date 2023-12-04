@@ -1,0 +1,1 @@
+//// Created by alice on 2023/1/30.//#ifndef CLION_CPOINTER_H#define CLION_CPOINTER_H#define ROWS 3#define COLS 4#endif //CLION_CPOINTER_Hvoid sum_rows(int ar[][COLS], int rows);void sum_cols(int [][COLS], int); //省略形参名int point1();int point2();void test1();

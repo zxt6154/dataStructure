@@ -34,8 +34,7 @@ int sushuSum()  {
     for(i = m; i < n; i++) {
         sum += isSushu(i, cnt);
     }
-    printf("%d", cnt);
-    printf("\n");
+    printf("素数个数: %d\n", cnt);
     return sum;
 }
 
